@@ -4,6 +4,4 @@ def extract_subarray(arr: list, row_start: int, row_stop: int, col_start: int, c
     """
     Returns the selected 2D subarray with dtype float64.
     """
-    arr = np.asarray(arr, dtype=np.float64)
-    return arr[row_start:row_stop, col_start:col_stop]
-    pass
+    return np.asarray(arr, dtype=np.float64)[row_start:row_stop, col_start:col_stop]
