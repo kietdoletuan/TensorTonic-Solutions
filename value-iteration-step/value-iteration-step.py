@@ -2,18 +2,16 @@ def value_iteration_step(values: list, transitions: list, rewards: list, gamma: 
     """
     Returns one updated floating-point value for every state.
     """
-    # Write code here
-    old_values = values.copy()
-    for state in range(len(transitions)):
+    new_v = []
+    for state in range(len(values)):
         Qs = []
         for action in range(len(transitions[state])):
-            sum = 0
-            for v in range(len(old_values)):
-                sum += (transitions[state][action][v] * old_values[v])
-            Q = rewards[state][action] + gamma * sum
+            reward = rewards[state][action]
+            num_pstates = len(transitions[state][action])
+            expected_future_value = sum([values[s_] * transitions[state][action][s_] for s_ in range(num_pstates)])
+            Q = reward + gamma * expected_future_value
             Qs.append(Q)
-        values[state] = max(Qs)
-
-    return values
-    
+            print(reward, num_pstates, expected_future_value, Q)
+        new_v.append(max(Qs))
+    return new_v
     pass
