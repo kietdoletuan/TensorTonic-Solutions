@@ -74,6 +74,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | DQN Loss with Target Network | Compute DQN targets and mean squared temporal-difference loss with terminal masking and a separate target network. | https://www.tensortonic.com/problems/rl-dqn-loss-with-target-network |
 | Epsilon-Greedy Action Selection | Choose actions with epsilon-greedy exploration, deterministic greedy tie handling, and controlled random sampling. | https://www.tensortonic.com/problems/rl-epsilon-greedy-action-selection |
 | Experience Replay Buffer | Implement a fixed-capacity circular replay buffer with deterministic overwrites and sampled transition batches. | https://www.tensortonic.com/problems/rl-experience-replay-buffer |
+| Prioritized Experience Replay | Sample replay items from priority-weighted probabilities and compute normalized importance-sampling weights. | https://www.tensortonic.com/problems/rl-prioritized-experience-replay |
 | RMSProp Optimizer (Single Update Step) | Implement one RMSProp update in NumPy using an exponential squared-gradient average and adaptive scaling. | https://www.tensortonic.com/problems/rmsprop-optimizer |
 | SARSA Update | Perform one on-policy SARSA action-value update from the observed reward and next selected action. | https://www.tensortonic.com/problems/sarsa-update |
 | Implement Sigmoid in NumPy | Implement a vectorized sigmoid activation in NumPy for scalars, lists, vectors, and matrices, including large positive and negative inputs. | https://www.tensortonic.com/problems/sigmoid-numpy |
