@@ -55,6 +55,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Pad Sequences | Pad or truncate variable-length token ID sequences in NumPy with configurable maximum length and padding values. | https://www.tensortonic.com/problems/pad-sequences |
 | Implement Positional Encoding (sin/cos) | Generate sinusoidal Transformer positional encodings across sequence positions and embedding dimensions, with the formula and tests in the browser. | https://www.tensortonic.com/problems/positional-encoding |
 | Precision and Recall at K | Compute precision@K and recall@K for recommendation systems by comparing ranked predictions with relevant items, with tests in the browser. | https://www.tensortonic.com/problems/precision-recall-at-k |
+| Mean, Median, Mode | Compute mean, median, and a deterministically selected mode for a one-dimensional numeric sample. | https://www.tensortonic.com/problems/probstat-mean-median-mode |
 | Poisson Distribution | Compute Poisson probabilities, cumulative mass through a cutoff, and the probability of zero events. | https://www.tensortonic.com/problems/probstat-poisson-distribution |
 | Activation Functions | Implement four common activation functions from scratch using basic PyTorch tensor operations (no torch.nn module). | https://www.tensortonic.com/problems/pytorch-activation-function-from-scratch |
 | Basic Autograd | Use PyTorch autograd to evaluate a scalar function and return its derivative at every supplied input value. | https://www.tensortonic.com/problems/pytorch-basic-autograd |
